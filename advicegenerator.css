@@ -1,0 +1,81 @@
+body{
+    background:none;
+}
+
+html { 
+    background: hsl(217, 19%, 24%) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.container{
+    text-align:center;
+    margin-top:150px;
+    width:500px;
+    background-color: hsl(217, 19%, 38%);
+    height: 280px;
+    border-radius: 15px;
+    font-family:'Courier New', Courier, monospace;
+}
+.advice{
+    color: hsl(150, 100%, 66%);
+}
+
+.adiceme{
+ height: 130px;
+}
+
+.quote{
+    color: whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 30px;
+}
+
+hr{
+    background-color: white;
+    border: none;
+    width: 200px;
+    margin-top: 85px;
+}
+ #pausetwo{
+     color: white; 
+    margin-top: 80px; 
+    
+}
+.dicefivetwo{
+    background-color: hsl(150, 100%, 66%) ;
+    border-radius: 50%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+}
+.dicefivetwo:hover{
+    background-color: rgb(142, 233, 213);
+}
+
+
+@media (max-width:700px) {
+    .container{
+        text-align:center;
+        margin-top:250px;
+        width:500px;
+        background-color: hsl(217, 19%, 38%);
+        height: 280px;
+        border-radius: 15px;
+        font-family:'Courier New', Courier, monospace;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
